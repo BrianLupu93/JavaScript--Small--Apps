@@ -1,0 +1,75 @@
+body {
+  background-color: #000000;
+}
+.progressContainer {
+  margin-top: 15rem;
+  width: 100%;
+  height: 20rem;
+}
+
+.message {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 4rem;
+  color: #f16305;
+}
+
+.progressBarEmpty {
+  margin-top: 3rem;
+  width: 100%;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: #b5bac0;
+}
+.progressBar {
+  display: inline-flexbox;
+  margin-top: -2rem;
+  width: 0%;
+  height: 2rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to left, #e9c10f, #f16305);
+}
+
+#progressPercent {
+  position: absolute;
+  font-size: 1.5rem;
+  color: white;
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+.loadingCircles {
+  display: inline-flex;
+  margin-top: 2rem;
+  margin-left: 38%;
+  width: auto;
+  height: auto;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5 {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 238, 8),
+    rgb(255, 255, 0)
+  );
+  opacity: 20%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  /* box-shadow: 10px 10px 5px #363232, -10px -10px 5px #363232,
+    10px -10px 5px #363232, -10px 10px 5px #363232; */
+}
+
+.circleShadow {
+  box-shadow: 5px 5px 15px white, -5px -5px 15px white, 5px -5px 15px white,
+    -5px 5px 15px white;
+}

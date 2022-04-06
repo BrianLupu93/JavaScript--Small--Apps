@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(110, 110, 110);
+}
+
+.empty--bar {
+  margin-top: 2rem;
+  border-radius: 2rem;
+  width: 100%;
+  background-color: rgb(211, 208, 208);
+}
+
+.progress--bar {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  width: 0%;
+  height: 5rem;
+  background-image: linear-gradient(to right, #f86401fa, rgb(241, 180, 11));
+}
+
+.percent--box {
+  margin-top: 10rem;
+}
+
+#progress--percent {
+  margin-left: 55.5rem;
+  width: 8rem;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  background-color: rgb(216, 214, 214);
+  color: rgb(240, 41, 6);
+  font-size: 2rem;
+  display: block;
+  align-items: center;
+}
+
+.loading--circles {
+  display: inline-flex;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 36%;
+  width: auto;
+  height: auto;
+}
+
+.circle--1 {
+  height: 5rem;
+  width: 5rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 238, 8),
+    rgb(255, 255, 0)
+  );
+  opacity: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  /* box-shadow: 10px 10px 5px #363232, -10px -10px 5px #363232,
+    10px -10px 5px #363232, -10px 10px 5px #363232; */
+}
+.circle--2 {
+  height: 5rem;
+  width: 5rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 238, 8),
+    rgb(255, 255, 0)
+  );
+  opacity: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+
+.circle--3 {
+  height: 5rem;
+  width: 5rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 238, 8),
+    rgb(255, 255, 0)
+  );
+  opacity: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+.circle--4 {
+  height: 5rem;
+  width: 5rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 238, 8),
+    rgb(255, 255, 0)
+  );
+  opacity: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+.circle--5 {
+  height: 5rem;
+  width: 5rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 238, 8),
+    rgb(255, 255, 0)
+  );
+  opacity: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+
+.message {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+.drive--car {
+  margin-left: 2%;
+}
+
+.car--light--alert {
+  margin-top: 5rem;
+  margin-left: 6.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: blue;
+  opacity: 40%;
+  border-radius: 1rem 1rem 0rem 0rem;
+  box-shadow: -12px -10px 12px #6e6e6e, 12px -10px 12px #6e6e6e;
+  /* border: 1px solid black; */
+}
+
+#police--car {
+  margin-top: 0rem;
+}
